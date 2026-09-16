@@ -6,20 +6,12 @@ public class Match
     private string _datum;
 
     // Properties — publik get, privat set
-    public string Hemmalag
-    {
-        // get och privat set för Hemmalag 
-    }
+    public string Hemmalag { get; private set; }
 
-    public string Bortalag
-    {
-        // get och privat set för Bortalag
-    }
+    public string Bortalag {  get; private set; }
+    
 
-    public string Datum
-    {
-        // get och privat set för Datum
-    }
+    public string Datum {  get; private set; }
 
     // Pluspoäng om ni kommer på hur man kan minska ner koden med properties :)
 
