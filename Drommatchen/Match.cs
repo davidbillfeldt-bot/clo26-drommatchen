@@ -1,9 +1,9 @@
 public class Match
 {
     // Privata fält
-    private string _hemmalag;
-    private string _bortalag;
-    private string _datum;
+    public string _hemmalag { get; private set; }
+    public string _bortalag { get; private set; }
+    public string _datum { get; private set; }
 
     // Properties — publik get, privat set
     public string Hemmalag { get; private set; }
@@ -16,7 +16,10 @@ public class Match
     // Konstruktor
     public Match(string hemmalag, string bortalag, string datum)
     {
-        // TODO: tilldela de privata fälten
+       _bortalag = hemmalag;
+       _bortalag = bortalag;
+       _datum = datum;
+        Match match1 = new Match("T1", "G2", "2026-09-17");
     }
 
     // Metod 1: skriv ut matchens lag och datum

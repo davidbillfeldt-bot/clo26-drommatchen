@@ -1,9 +1,9 @@
 public class Spelare
 {
     // Privata fält
-    private string _namn;
-    private int _nummer;
-    private string _position;
+    public string _namn { get; private set; }
+    public int _nummer { get; private set; }
+    public string _position { get; private set; }
 
     // Properties — publik get, privat set
 
@@ -20,6 +20,9 @@ public class Spelare
     // Konstruktor
     public Spelare(string namn, int nummer, string position)
     {
+        _namn = namn;
+        _nummer = nummer;
+        _position = position;
         Spelare spelare1 = new Spelare("Faker", 7, "Midlane");
         Spelare spelare2 = new Spelare("Caps", 10, "Midlane");
     }
