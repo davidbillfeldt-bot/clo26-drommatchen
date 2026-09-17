@@ -12,8 +12,10 @@ public class Match
     }
     public void Presentera()
     { Console.WriteLine($"{Hemmalag} mot {Bortalag} - {Datum}"); }
-    public void AnnounceraKillLeader(Spelare spelare)
-    {   Console.WriteLine(spelare.Namn);
-        Console.WriteLine(spelare.Nummer);
-        Console.WriteLine(spelare.Position);}
+    public string AnnounceraKillLeader(Spelare spelare)
+    {
+        string text = $"{spelare.Namn} {spelare.Nummer} {spelare.Position}";
+        Console.WriteLine(text);
+        return text;
+    }
 }
