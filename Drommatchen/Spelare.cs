@@ -23,9 +23,13 @@ public class Spelare
         _namn = namn;
         _nummer = nummer;
         _position = position;
-        Spelare spelare1 = new Spelare("Faker", 7, "Midlane");
-        Spelare spelare2 = new Spelare("Caps", 10, "Midlane");
+
     }
-        //Tog hjälp av Ai på rad 21 då jag hade skrivt ett ; efter raden som strulade till koden:)
-        // TODO: tilldela de privata fälten
+
+    //Tog hjälp av Ai på rad 21 då jag hade skrivt ett ; efter raden som strulade till koden:)
+   
+    Spelare spelare1 = new Spelare("Faker", 7, "Midlane");
+    Spelare spelare2 = new Spelare("Caps", 10, "Midlane");
+
+    // TODO: tilldela de privata fälten
 }
