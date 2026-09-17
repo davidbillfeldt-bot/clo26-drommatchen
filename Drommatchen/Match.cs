@@ -10,16 +10,10 @@ public class Match
         Bortalag = bortalag;
         Datum = datum;
     }
-    // Skriver ut matchens lag och datum
     public void Presentera()
-    {
-        Console.WriteLine($"{Hemmalag} mot {Bortalag} - {Datum}");
-    }
-    // Skriver ut spelarens namn, nummer och position
+    { Console.WriteLine($"{Hemmalag} mot {Bortalag} - {Datum}"); }
     public void AnnounceraKillLeader(Spelare spelare)
-    {
-        Console.WriteLine(spelare.Namn);
+    {   Console.WriteLine(spelare.Namn);
         Console.WriteLine(spelare.Nummer);
-        Console.WriteLine(spelare.Position);
-    }
+        Console.WriteLine(spelare.Position);}
 }
