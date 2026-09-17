@@ -1,6 +1,8 @@
 using System;
 public class Match
 {
+    private string text;
+
     public string Hemmalag { get; private set; }
     public string Bortalag { get; private set; }
     public string Datum { get; private set; }
@@ -14,8 +16,6 @@ public class Match
     { Console.WriteLine($"{Hemmalag} mot {Bortalag} - {Datum}"); }
     public string AnnounceraKillLeader(Spelare spelare)
     {
-        string text = $"{spelare.Namn} {spelare.Nummer} {spelare.Position}";
-        Console.WriteLine(text);
-        return text;
-    }
+        Console.WriteLine($"{spelare.Namn} {spelare.Nummer} {spelare.Position}");
+        return spelare.Namn;}
 }
