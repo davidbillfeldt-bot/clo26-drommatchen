@@ -18,8 +18,11 @@ public class Spelare
 
 
     // Konstruktor
-    public Spelare(string namn, int nummer, string position);
-       Spelare spelare1 = new Spelare("Faker", 7, "Midlane");
-    Spelare spelare2 = new Spelare("Caps", 10, "Midlane");
+    public Spelare(string namn, int nummer, string position)
+    {
+        Spelare spelare1 = new Spelare("Faker", 7, "Midlane");
+        Spelare spelare2 = new Spelare("Caps", 10, "Midlane");
+    }
+        //Tog hjälp av Ai på rad 21 då jag hade skrivt ett ; efter raden som strulade till koden:)
         // TODO: tilldela de privata fälten
 }
