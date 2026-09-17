@@ -13,7 +13,8 @@ public class Match
         _bortalag = bortalag;
         _datum = datum;
     }
-
+    
+Match match1 = new Match("T1", "G2", "2026-09-17");
     // Metod 1: skriv ut matchens lag och datum
     public void Presentera()
     {
