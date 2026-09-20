@@ -19,6 +19,6 @@ public class Program
         Spelare spelare2 = new Spelare("Caps", 10, "Midlane");
         match1.Presentera();
         Console.WriteLine();
-        match1.AnnounceraKillLeader(spelare1);
+        string v = match1.AnnounceraKillLeader("Nya killeader T1 Faker nr.7 " + spelare1.Namn);
     }
 }
