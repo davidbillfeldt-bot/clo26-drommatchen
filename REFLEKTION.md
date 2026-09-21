@@ -1,9 +1,9 @@
 # Reflektion
 
-**Namn:**  
-**Kurs:**  
-**Uppgift:**  
-**Datum:**  
+**Namn:** David Billfeldt 
+**Kurs:**  Grundläggande oop i C#
+**Uppgift:**  Drömmatchen
+**Datum:**  2026-09-17
 
 ---
 
@@ -16,6 +16,7 @@
 
 *Var fastnade du? Vad tog längre tid än du trodde — och hur kom du vidare?*
 
+Jag hade lite problem på slutet med att få allt att displaya på samma rad, frågade klasskompisen om inspiration.
 > 
 
 ---
@@ -33,4 +34,5 @@
 
 *Tänk på din lösning, din struktur, eller hur ni jobbade. Vad skulle du ändra?*
 
+Jag hade jobbet mer med grunderna innan jag startade uppgiftn.
 > 
