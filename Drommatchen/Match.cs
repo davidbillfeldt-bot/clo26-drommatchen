@@ -38,22 +38,3 @@ public class Match
         return spelare.Namn;
     }
 }
-
-public partial class Program
-{
-    public static void Main()
-    {
-        Match match1 = new Match("T1", "G2", "2026-09-17");
-        Spelare spelare1 = new Spelare("Faker", 7, "Midlane");
-        Spelare spelare2 = new Spelare("Caps", 10, "Midlane");
-
-        match1.Presentera();
-        Console.WriteLine();
-
-        string v = match1.AnnounceraMålskytt(spelare1);
-        Console.WriteLine(v);
-
-        string v2 = match1.AnnounceraMålskytt(spelare2);
-        Console.WriteLine(v2);
-    }
-}
